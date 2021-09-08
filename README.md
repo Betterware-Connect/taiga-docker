@@ -12,6 +12,17 @@ Additionally, it's necessary to have familiarity with Docker, docker-compose and
 
 **Note** branch `stable` should be used to deploy Taiga in production and `main` branch for development purposes.
 
+### Prerequisites & Setup
+
+Create a new file called `.env` and customized all environment variables as defined in `.env.sample`.
+
+```
+TAIGA_SECRET_KEY=xxxxx
+....
+```
+
+Save the file before starting the application.
+
 ### Start the application
 
 ```sh
